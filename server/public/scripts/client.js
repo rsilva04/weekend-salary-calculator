@@ -40,15 +40,17 @@ function completedForms(event) {
     cell6.appendChild(deleteButton);
 
     monthlyCosts += parseInt(annualSalary.value);
+    //var totalMonthlyCost = document.getElementById("totalMonthlyCost");
+    totalMonthlyCost.innerHTML = monthlyCosts;
     console.log(monthlyCosts);
     if (monthlyCosts > maxMonthlyCost){
         document.body.style.backgroundColor = "red";
-    } 
-    
+
   
 }
 
 function deleteRow(row) {
     row.remove();
 
+}
 }
