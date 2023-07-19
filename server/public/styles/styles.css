@@ -7,6 +7,12 @@
     font-family: sans-serif;
 }
 
+#employees-information {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: rgba(169,169,169)
+}
 
 table {
     width: 75%;
@@ -19,8 +25,8 @@ table, tr, th, td {
 
 #delete-button {
     font-family: 'Roboto Mono', sans-serif;
-    color: #1d3557;
-    background-color: #a8dadc;
+    color: #112034;
+    background-color: #6b8a8b;
     border: 0px solid;
     transition-duration: 0.4s;
     padding: 5px;
@@ -29,4 +35,5 @@ table, tr, th, td {
 
 th {
     padding: 1%;
+    width: 100px;
 }
