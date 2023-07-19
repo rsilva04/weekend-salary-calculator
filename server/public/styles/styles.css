@@ -7,13 +7,26 @@
     font-family: sans-serif;
 }
 
-#employees-information {
-    background-color: rgb(188, 178, 178);
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+table {
+    width: 75%;
 }
 
+table, tr, th, td {
+    border: 1px solid #1d3557;
+    border-collapse: collapse;
+}
+
+#delete-button {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #1d3557;
+    background-color: #a8dadc;
+    border: 0px solid;
+    transition-duration: 0.4s;
+    padding: 5px;
+    margin: 5px;
+}
+
+th {
+    padding: 1%;
+}
